@@ -8,7 +8,7 @@ const projects = [
     title: "Site Institucional Advance",
     description:
       "Site institucional voltado à oferta de serviços de landing pages e desenvolvimento de softwares, com design responsivo, integração com APIs.",
-    tags: ["HTML", "CSS", "JavaScript", "SEO"],
+    tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/migueljaber/TCC",
     type: "TCC",
     image: projectAdvance,
@@ -17,7 +17,7 @@ const projects = [
     title: "Sistema para Barbearia",
     description:
       "Sistema informatizado com funcionalidades de agendamento online, cadastro de clientes e painel administrativo para controle financeiro.",
-    tags: ["PHP", "MySQL", "CSS", "JavaScript"],
+    tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/migueljaber/Barbearia",
     type: "TCC",
     image: projectBarbearia,
