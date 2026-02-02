@@ -93,13 +93,16 @@ const Contact = () => {
                 Vamos trabalhar juntos?
               </h3>
               <p className="text-muted-foreground mb-6">
-                Estou aberto a oportunidades de estágio, freelance ou emprego CLT.
-                Ficarei feliz em contribuir com seu projeto!
+                Estou aberto a oportunidades de estágio, freelance ou emprego
+                CLT. Ficarei feliz em contribuir com seu projeto!
               </p>
               <Button size="lg" className="glow-box" asChild>
-                <a href="mailto:migueljabermacedo@gmail.com">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&to=migueljabermacedo@gmail.com"
+                  target="_blank"
+                >
                   <Mail className="w-4 h-4 mr-2" />
-                  Enviar E-mail
+                  Enviar via Gmail
                 </a>
               </Button>
             </div>
