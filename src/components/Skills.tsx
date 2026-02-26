@@ -27,9 +27,9 @@ const technologies = [
   { name: "CSS3", icon: css3Icon },
 
   { name: "Node.js", icon: nodejsIcon },
+  { name: "Express", icon: expressIcon },
   { name: "PHP", icon: phpIcon },
   { name: "Laravel", icon: laravelIcon },
-  { name: "MySQL", icon: mysqlIcon },
   { name: "Git", icon: gitIcon },
 ];
 
@@ -37,7 +37,7 @@ const tools = [
   { name: "React", icon: reactIcon },
   { name: "Bootstrap", icon: bootstrapIcon },
   { name: "jQuery", icon: jqueryIcon },
-  { name: "Express", icon: expressIcon },
+  { name: "MySQL", icon: mysqlIcon },
   { name: "Figma", icon: figmaIcon },
   { name: "Tailwind CSS", icon: tailwindcssIcon },
   { name: "XAMPP", icon: xamppIcon },
