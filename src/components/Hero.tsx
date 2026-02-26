@@ -12,33 +12,33 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
-      
+
       <div className="absolute inset-0 bg-background/40" />
-      
+
       <div className="relative z-10 container mx-auto px-6 text-center">
         <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <p className="text-primary font-medium mb-4 tracking-wider uppercase text-sm">
             Desenvolvedor Full-Stack
           </p>
         </div>
-        
-        <h1 
+
+        <h1
           className="text-5xl md:text-7xl font-display font-bold mb-6 animate-fade-in"
           style={{ animationDelay: "0.2s" }}
         >
           <span className="text-foreground">Olá, eu sou </span>
           <span className="text-gradient glow-text">Miguel Jaber</span>
         </h1>
-        
-        <p 
+
+        <p
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in"
           style={{ animationDelay: "0.3s" }}
         >
-          Desenvolvedor versátil, capacitado para projetos front-end, back-end e full-stack.
-          Transformando ideias em código limpo e funcional.
+          Desenvolvedor versátil, capacitado para projetos front-end, back-end e
+          full-stack. Transformando ideias em código limpo e funcional.
         </p>
-        
-        <div 
+
+        <div
           className="flex items-center justify-center gap-4 mb-12 animate-fade-in"
           style={{ animationDelay: "0.4s" }}
         >
@@ -59,14 +59,14 @@ const Hero = () => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a
-            href="mailto:migueljabermacedo@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&to=migueljabermacedo@gmail.com"
             className="p-3 glass rounded-full card-hover hover:bg-primary/20"
           >
             <Mail className="w-6 h-6" />
           </a>
         </div>
-        
-        <div 
+
+        <div
           className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in"
           style={{ animationDelay: "0.5s" }}
         >
@@ -78,7 +78,7 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-      
+
       <a
         href="#sobre"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float"
