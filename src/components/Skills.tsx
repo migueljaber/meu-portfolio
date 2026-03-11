@@ -16,9 +16,14 @@ import tailwindcssIcon from "@/assets/icons/tailwindcss.svg";
 import xamppIcon from "@/assets/icons/xampp.svg";
 import postmanIcon from "@/assets/icons/postman.svg";
 import expressIcon from "@/assets/icons/express.svg";
-import intellijIcon from "@/assets/icons/intellij.svg";
-import vscodeIcon from "@/assets/icons/vscode.svg";
+
 import trelloIcon from "@/assets/icons/trello.svg";
+import postgresqlIcon from "@/assets/icons/postgresql.svg";
+import swaggerIcon from "@/assets/icons/swagger.svg";
+import hibernateIcon from "@/assets/icons/hibernate.svg";
+import typescriptIcon from "@/assets/icons/typescript.svg";
+import linuxIcon from "@/assets/icons/linux.svg";
+
 const technologies = [
   { name: "Java", icon: javaIcon },
   { name: "Spring Boot", icon: springbootIcon },
@@ -28,23 +33,30 @@ const technologies = [
 
   { name: "Node.js", icon: nodejsIcon },
   { name: "Express", icon: expressIcon },
+  { name: "TypeScript", icon: typescriptIcon },
+  { name: "React", icon: reactIcon },
+  { name: "Tailwind CSS", icon: tailwindcssIcon },
+
   { name: "PHP", icon: phpIcon },
   { name: "Laravel", icon: laravelIcon },
-  { name: "Git", icon: gitIcon },
 ];
 
 const tools = [
-  { name: "React", icon: reactIcon },
   { name: "Bootstrap", icon: bootstrapIcon },
   { name: "jQuery", icon: jqueryIcon },
-  { name: "MySQL", icon: mysqlIcon },
   { name: "Figma", icon: figmaIcon },
-  { name: "Tailwind CSS", icon: tailwindcssIcon },
-  { name: "XAMPP", icon: xamppIcon },
+
+  { name: "MySQL", icon: mysqlIcon },
+  { name: "PostgreSQL", icon: postgresqlIcon },
+  { name: "Hibernate", icon: hibernateIcon },
+
+  { name: "Swagger", icon: swaggerIcon },
   { name: "Postman", icon: postmanIcon },
-  { name: "IntelliJ", icon: intellijIcon },
-  { name: "VSCode", icon: vscodeIcon },
   { name: "Trello", icon: trelloIcon },
+
+  { name: "XAMPP", icon: xamppIcon },
+  { name: "Git", icon: gitIcon },
+  { name: "Linux", icon: linuxIcon },
 ];
 
 const Skills = () => {
