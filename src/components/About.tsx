@@ -24,20 +24,20 @@ const About = () => {
             
             <div className="space-y-6">
               <div className="border-l-2 border-primary/30 pl-4">
+                <p className="text-primary font-medium">2026</p>
+                <h4 className="font-semibold">Estagiário - Bradesco Seguros</h4>
+                <p className="text-sm text-muted-foreground mt-1">
+                  Manutenção de sistemas Java/Spring, 
+                  participação em célula ágil com Scrum e apoio no desenvolvimento de microserviços para soluções internas da área de Reembolso Saúde.
+                </p>
+              </div>
+              
+              <div className="border-l-2 border-primary/30 pl-4">
                 <p className="text-primary font-medium">2024</p>
                 <h4 className="font-semibold">Estagiário - Rio Option</h4>
                 <p className="text-sm text-muted-foreground mt-1">
                   Atendimento e suporte ao cliente, instalação de softwares, 
                   manutenção, utilização do Pacote Office e criação de imagens.
-                </p>
-              </div>
-              
-              <div className="border-l-2 border-primary/30 pl-4">
-                <p className="text-primary font-medium">Freelancer</p>
-                <h4 className="font-semibold">Desenvolvedor Front-End (ReactJS/CSS)</h4>
-                <p className="text-sm text-muted-foreground mt-1">
-                  Desenvolvimento de projetos dinâmicos utilizando ReactJS, 
-                  Git para versionamento e Figma/Trello para fluxo de trabalho.
                 </p>
               </div>
             </div>
@@ -56,6 +56,12 @@ const About = () => {
                 <p className="text-primary font-medium">2025 - 2027</p>
                 <h4 className="font-semibold">Análise e Desenvolvimento de Sistemas</h4>
                 <p className="text-sm text-muted-foreground mt-1">FAETERJ-Rio</p>
+              </div>
+
+              <div className="border-l-2 border-primary/30 pl-4">
+                <p className="text-primary font-medium">2026</p>
+                <h4 className="font-semibold">Curso Programador Back-end</h4>
+                <p className="text-sm text-muted-foreground mt-1">Firjan SENAI</p>
               </div>
               
               <div className="border-l-2 border-primary/30 pl-4">

@@ -1,27 +1,26 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "./ui/button";
-import projectAdvance from "@/assets/project-advance.jpeg";
-import projectBarbearia from "@/assets/project-barbearia.jpeg";
+import project from "@/assets/image.png";
 
 const projects = [
   {
-    title: "Site Institucional Advance",
-    description:
-      "Site institucional voltado à oferta de serviços de landing pages e desenvolvimento de softwares, com design responsivo, integração com APIs.",
-    tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
-    github: "https://github.com/migueljaber/TCC",
-    type: "TCC",
-    image: projectAdvance,
+    title: "Sistema de Agendamento para Barbearia",
+    description: "API RESTful para gerenciamento de clientes, barbeiros, serviços e agendamentos de uma barbearia.",
+    tags: ["Java", "Spring Boot", "API", "PostgreSQL", "exception handling", "swagger"],
+    github: "https://github.com/migueljaber/barbearia-apirest",
+    type: "Em desenvolvimento",
+    image: project
   },
   {
-    title: "Sistema para Barbearia",
-    description:
-      "Sistema informatizado com funcionalidades de agendamento online, cadastro de clientes e painel administrativo para controle financeiro.",
-    tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
-    github: "https://github.com/migueljaber/Barbearia",
-    type: "TCC",
-    image: projectBarbearia,
+    title: "Sistema de Cadastro de Produtos e Categorias",
+    description: "API RESTful para cadastro de produtos e categorias.",
+    tags: ["Java", "Spring Boot", "API", "h2 database", "exception handling", "swagger"],
+    github: "https://github.com/migueljaber/crud-api-restful",
+    type: "Pessoal",
+    image: project
   },
+
+
 ];
 
 const Projects = () => {

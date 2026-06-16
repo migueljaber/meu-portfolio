@@ -1,60 +1,71 @@
-import javascriptIcon from "@/assets/icons/javascript.svg";
+
 import javaIcon from "@/assets/icons/java.svg";
-import reactIcon from "@/assets/icons/react.svg";
-import html5Icon from "@/assets/icons/html5.svg";
-import css3Icon from "@/assets/icons/css3.svg";
-import nodejsIcon from "@/assets/icons/nodejs.svg";
-import phpIcon from "@/assets/icons/php.svg";
-import laravelIcon from "@/assets/icons/laravel.svg";
-import mysqlIcon from "@/assets/icons/mysql.svg";
-import gitIcon from "@/assets/icons/git.svg";
-import bootstrapIcon from "@/assets/icons/bootstrap.svg";
-import jqueryIcon from "@/assets/icons/jquery.svg";
-import figmaIcon from "@/assets/icons/figma.svg";
 import springbootIcon from "@/assets/icons/springboot.svg";
+import dockerIcon from "@/assets/icons/docker.svg";
+import mongoDBIcon from "@/assets/icons/mongodb.svg";
+import postgresqlIcon from "@/assets/icons/postgresql.svg";
+
+import mysqlIcon from "@/assets/icons/mysql.svg";
+import javascriptIcon from "@/assets/icons/javascript.svg";
+import typescriptIcon from "@/assets/icons/typescript.svg";
+import reactIcon from "@/assets/icons/react.svg";
 import tailwindcssIcon from "@/assets/icons/tailwindcss.svg";
-import xamppIcon from "@/assets/icons/xampp.svg";
+
+
+
+import gitIcon from "@/assets/icons/git.svg";
+
+
+import figmaIcon from "@/assets/icons/figma.svg";
+import dbeaverIcon from "@/assets/icons/dbeaver.svg";
+
+import jiraIcon from "@/assets/icons/jira.svg";
+import insomniaIcon from "@/assets/icons/insomnia.svg";
+import confluenceIcon from "@/assets/icons/confluence.svg";
+import bitbucketIcon from "@/assets/icons/bitbucket.svg";
 import postmanIcon from "@/assets/icons/postman.svg";
-import expressIcon from "@/assets/icons/express.svg";
+
 
 import trelloIcon from "@/assets/icons/trello.svg";
-import postgresqlIcon from "@/assets/icons/postgresql.svg";
+
 import swaggerIcon from "@/assets/icons/swagger.svg";
 import hibernateIcon from "@/assets/icons/hibernate.svg";
-import typescriptIcon from "@/assets/icons/typescript.svg";
+
 import linuxIcon from "@/assets/icons/linux.svg";
 
 const technologies = [
   { name: "Java", icon: javaIcon },
   { name: "Spring Boot", icon: springbootIcon },
-  { name: "JavaScript", icon: javascriptIcon },
-  { name: "HTML5", icon: html5Icon },
-  { name: "CSS3", icon: css3Icon },
+  { name: "Docker", icon: dockerIcon },
+  { name: "MongoDB", icon: mongoDBIcon },
+  { name: "PostgreSQL", icon: postgresqlIcon },
 
-  { name: "Node.js", icon: nodejsIcon },
-  { name: "Express", icon: expressIcon },
+  { name: "MySQL", icon: mysqlIcon },
+  { name: "JavaScript", icon: javascriptIcon },
   { name: "TypeScript", icon: typescriptIcon },
   { name: "React", icon: reactIcon },
   { name: "Tailwind CSS", icon: tailwindcssIcon },
-
-  { name: "PHP", icon: phpIcon },
-  { name: "Laravel", icon: laravelIcon },
+  
 ];
 
 const tools = [
-  { name: "Bootstrap", icon: bootstrapIcon },
-  { name: "jQuery", icon: jqueryIcon },
+  
   { name: "Figma", icon: figmaIcon },
-
-  { name: "MySQL", icon: mysqlIcon },
-  { name: "PostgreSQL", icon: postgresqlIcon },
   { name: "Hibernate", icon: hibernateIcon },
+  { name: "Dbeaver", icon: dbeaverIcon},
 
   { name: "Swagger", icon: swaggerIcon },
   { name: "Postman", icon: postmanIcon },
+  { name: "Insomnia", icon: insomniaIcon },
   { name: "Trello", icon: trelloIcon },
-
-  { name: "XAMPP", icon: xamppIcon },
+  { name: "Bitbucket", icon: bitbucketIcon },
+  { name: "Jira", icon: jiraIcon },
+  { name: "Confluence", icon: confluenceIcon },
+  
+  
+  
+  
+  
   { name: "Git", icon: gitIcon },
   { name: "Linux", icon: linuxIcon },
 ];
